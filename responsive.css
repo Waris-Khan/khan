@@ -1,0 +1,188 @@
+@media only screen and (max-width: 1680px) {
+    
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    
+    h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vh;
+}
+p {
+/*  font-size: 2vmin;*/
+}
+    
+.main-text-wrapper p {
+    
+    margin-left: 50%;
+    
+}
+    
+.about-section .about-heading-bg {
+    
+    padding-left: 60px;
+}
+    
+.about-section .about-text {
+    margin-top: 80px;
+    padding-left: 45px;
+}
+
+.about-section .about-text p {
+    font-size: 26px;
+}
+    
+.skills {
+    margin-top: 50px;
+    margin-left: 45px;
+}
+    
+.lower-nav-links {
+    width: 60%;
+    padding-left: 50px;
+}
+
+.lower-nav-links li a {
+    
+    font-size: 40px;
+}
+    
+.next{
+
+    padding-left: 40px;
+}
+    
+/*    PORTFOLIO */
+    
+.left-img-box {
+    
+    height: 305px;
+}
+    
+.center-img-box {
+    
+    height: 350px;
+}
+    
+.caption h1 {
+    font-size: 20px;
+}
+
+/*  CONTACT PAGE */
+    
+.inputs{
+    
+    width: 40%;
+    margin-right: 48px;
+}
+    
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .main-text-wrapper p {
+    margin-left: 40%;
+}
+    
+/*    ABOUT PAGE */
+    
+.about-section {
+    margin-top: -1px;
+}
+    
+.about-section .about-heading-bg {
+    padding-left: 0px;
+}
+    
+.about-section .about-heading-bg h1 {
+    
+    font-size: 55px;
+}
+    
+.about-section .about-text {
+    margin-top: 60px;
+    padding-left: 0px;
+}
+    
+.about-section .about-text p {
+    font-size: 22px;
+}
+    
+.skills {
+    margin-top: 50px;
+     margin-left: 0px; 
+}
+    
+/*    LOWER NAVBAR*/
+    
+.next {
+     padding-left: 0px; 
+}
+    
+.lower-nav-links {
+    width: 60%;
+    padding-left: 0px;
+}
+    
+.lower-nav-links li a {
+    font-size: 34px;
+}
+    
+#top a h4 {
+    padding: 7px 3px;
+}
+    
+/*    SERVICE PAGE*/
+    
+.service-box h1{
+
+    font-size: 36px;
+}
+.service-box p{
+
+    margin-top: 20px;
+    font-size: 12px;
+}
+    
+/*    CONTACT PAGE */
+    .inputs{
+    
+    width: 100%;
+/*    padding-right: 58px;*/
+}
+    
+/*    LOWER NAVBAR*/
+    
+.lower-navbar {
+    margin-top: -2px;
+}
+    
+}
+
+@media only screen and (max-width: 480px) {
+    
+    
+    .container{
+        padding: -30px;
+        margin: -30px;
+    }
+    
+/*    Home Page */
+    
+.main-text-wrapper p {
+    margin-left: 130px;
+}
+    
+/*    ABOUT SECTION */
+    .about-section .about-heading-bg {
+     padding-left: 0px; 
+}
+    
+.about-section .about-heading-bg h1 {
+    font-size: 45px;
+}
+}
+

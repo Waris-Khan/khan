@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Khan</title>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,600,700' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet'>
+        <!--   CDN Links     -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <!--   WOW ANIMATION     -->
+        <link rel="stylesheet" href="css/animate.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha256-399DNRyfIpWIy1ZV0KmEIIuIQ5sBHdLu9MBtVHrNtt8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="responsive.css">
+    </head>
+    <body class="wow fadeInUp">
+        
+        <!--------------------------------------
+                    NAVBAR START
+        --------------------------------------->
+    
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 navbar-bg">
+                <div class="container">
+                    <div class="col-md-6 col-sm-6 col-xs-12 navbar-left">
+                        <div class="logo-box">
+                            <a href="index.html">
+                                <span>WK</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 navbar-right">
+                        <div class="menu-btn">
+                            <a onclick="openNav()" class="btn btn-link">
+                                <span>Menu</span> <i class="fa fa-bars "style="font-size:18px;color:#0c0e13;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <ul class="links">
+<!--                <li><a href="about.html">About</a><div id="about"></div></li>-->
+                <li><a href="services.html">Services</a><div id="services"></div></li>
+                <li><a href="portfolio.html">Portfolio</a><div id="clients"></div></li>
+                <li><a href="contact.html">Contact</a><div id="contact"></div></li>
+            </ul>
+        </div>
+
+        </div>
+        <!--------------------------------------
+                    NAVBAR END
+        --------------------------------------->
+        
+        <!--------------------------------------
+                    CONTACT SECTION START
+        --------------------------------------->
+        <section class="contact bg-color">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container">
+                        <div class="head wow fadeInDown">
+                            <h1 class="contact-heading">Contact</h1>
+                            <p class="contact-sub-heading" style="color:#15c182;">Let's Talk</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="col-md-5 col-sm-5 col-xs-5 wow fadeInLeft" data-wow-delay="1s">
+                        <div class="item">
+                            <h5><span><i class="fa fa-envelope"></i></span>&nbsp;&nbsp;xyz@gmail.com</h5>
+                            <p style="color:#aaa;">Email</p>
+                        </div>
+                        <div class="item">
+                            <h5><span><i class="fa fa-map-marker"></i></span>&nbsp;&nbsp;Karachi, Pakistan</h5>
+                            <p style="color:#aaa;">Address</p>
+                        </div>
+                        <div class="item">
+                            <h5><span><i class="fa fa-phone"></i></span>&nbsp;&nbsp;0300-1234567</h5>
+                            <p style="color:#aaa;">Phone</p>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-7 col-xs-7 wow fadeInRight" data-wow-delay="1s">
+                        <div class="form">
+                            <form class="form-inline">
+                                <div class="inputs form-group">
+                                    <input type="text" class="form-control" size="50" placeholder="What's your name">
+                                </div>
+                                <div class="inputs form-group">
+                                    <input type="text" class="form-control" size="50" placeholder="Your Email">
+                                </div>
+                                <br/><br/>
+                                <div class="form-group horizontal-form">
+                                  <textarea class="form-control" rows="1" id="comment" style="width:565px;" placeholder="Your Message"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-10 submit">
+                                        <input type="submit" value="Submit">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------------------------------
+                    CONTACT SECTION END
+        --------------------------------------->
+        
+        <!--------------------------------------
+                    LOWER NAVBAR START
+        --------------------------------------->
+        <section class="lower-navbar bg-color">
+            <div class="row wow fadeInLeft" data-wow-delay="0.3s">
+                <div class="col-md-12">
+                    <div class="container">
+                        <div>
+                            <p style="font-weight:600;">Next</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-md-12">
+                    <div class="container">
+                        <nav class="navbar-body">
+                            <ul class="lower-nav-links">
+                                <li>
+                                    <a href="">Services</a>
+                                </li>
+                                <li>
+                                    <a href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="back-to-top" id="top">
+                                <a href="#navbar"><h4>TOP</h4></a>
+                            </div>
+                        </nav>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------------------------------
+                    LOWER NAVBAR END
+        --------------------------------------->
+        
+        <!--    SCRIPTS    -->
+        <script src="js/main.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!--    NAVBAR SCRIP    -->
+        <script src="js/navbar_script.js"></script>
+        
+        <!--   WOW ANIMATION   -->
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+        
+    </body>
+</html>

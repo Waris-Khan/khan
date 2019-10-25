@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Khan</title>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,600,700' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet'>
+        
+        <!--   WOW ANIMATION     -->
+        <link rel="stylesheet" href="css/animate.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha256-399DNRyfIpWIy1ZV0KmEIIuIQ5sBHdLu9MBtVHrNtt8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
+        
+        <!--   CDN Links     -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="responsive.css">
+    </head>
+    <body>
+        
+        <!--------------------------------------
+                    NAVBAR START
+        --------------------------------------->
+    
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <div class="row">
+            <div class="col-md-12 navbar-bg">
+                <div class="container">
+                    <div class="col-md-6 navbar-left">
+                        <div class="logo-box">
+                            <a href="index.html">
+                                <span>WK</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 navbar-right">
+                        <div class="menu-btn">
+                            <a onclick="openNav()" class="btn btn-link">
+                                <span>Menu</span> <i class="fa fa-bars "style="font-size:18px;color:#0c0e13;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <ul class="links">
+<!--                <li><a href="about.html">About</a><div id="about"></div></li>-->
+                <li><a href="services.html">Services</a><div id="services"></div></li>
+                <li><a href="portfolio.html">Portfolio</a><div id="clients"></div></li>
+                <li><a href="contact.html">Contact</a><div id="contact"></div></li>
+            </ul>
+        </div>
+
+        </div>
+        <!--------------------------------------
+                    NAVBAR END
+        --------------------------------------->
+        
+        <!--------------------------------------
+                    PORTFOLIO SECTION START
+        --------------------------------------->
+        
+        <section class="portfolio">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container">
+                        <div class="head">
+                            <h1 class="portfolio-heading wow fadeInDown">Portfolio</h1>
+                            <p class="portfolio-sub-heading wow fadeInLeft" style="color:#15c182;">Our Best Work</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container">
+                        <!--    TWO IMAGE ROW    -->
+                        <div class="row">
+                            <div class="container">
+                                <div class="col-md-6 project1">
+                                    <div class="left-img-box">
+                                        <div class="img-container wow fadeInLeft" data-wow-delay="1s"></div>
+                                    </div>
+                                    <div class="caption wow fadeInLeft" data-wow-delay="0.3ss">
+                                        <h1>Project Name</h1>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 project2">
+                                    <div class="right-img-box wow fadeInRight" data-wow-delay="0.3s">
+                                        <div class="img-container"></div>
+                                    </div>
+                                    <div class="caption wow fadeInRight">
+                                        <h1>Project Name</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--    TWO IMAGE ROW END    -->
+                        <!--    ONE IMAGE ROW    -->
+                        <div class="row">
+                            <div class="container">
+                                <div class="col-md-10 col-md-offset-1 project3">
+                                    <div class="center-img-box wow fadeInUp" data-wow-delay="1s">
+                                        <div class="img-container"></div>
+                                    </div>
+                                    <div class="caption wow fadeInUp" data-wow-delay="0.3s">
+                                        <h1>Project Name</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--    ONE IMAGE ROW END    -->
+                        <!--    TWO IMAGE ROW    -->
+                        <div class="row">
+                            <div class="container">
+                                <div class="col-md-6 project1">
+                                    <div class="left-img-box wow fadeInLeft" data-wow-delay="1s">
+                                        <div class="img-container"></div>
+                                    </div>
+                                    <div class="caption wow fadeInLeft" data-wow-delay="0.3s">
+                                        <h1>Project Name</h1>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 project2">
+                                    <div class="right-img-box wow fadeInRight" data-wow-delay="1s">
+                                        <div class="img-container"></div>
+                                    </div>
+                                    <div class="caption wow fadeInRight" data-wow-delay="0.3s">
+                                        <h1>Project Name</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--    TWO IMAGE ROW END    -->
+                        <!--    ONE IMAGE ROW    -->
+                        <div class="row">
+                            <div class="container">
+                                <div class="col-md-10 col-md-offset-1 project3">
+                                    <div class="center-img-box wow fadeInUp" data-wow-delay="1s">
+                                        <div class="img-container"></div>
+                                    </div>
+                                    <div class="caption wow fadeInUp" data-wow-delay="0.3s">
+                                        <h1>Project Name</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--    ONE IMAGE ROW END    -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--------------------------------------
+                    PORTFOLIO SECTION END
+        --------------------------------------->
+        
+        <!--------------------------------------
+                    LOWER NAVBAR START
+        --------------------------------------->
+        <section class="lower-navbar bg-color">
+            <div class="row wow fadeInLeft" data-wow-delay="0.3s">
+                <div class="col-md-12">
+                    <div class="container">
+                        <div>
+                            <p style="font-weight:600;">Next</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-md-12">
+                    <div class="container">
+                        <nav class="navbar-body">
+                            <ul class="lower-nav-links">
+                                <li>
+                                    <a href="">Services</a>
+                                </li>
+                                <li>
+                                    <a href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="back-to-top" id="top">
+                                <a href="#navbar"><h4>TOP</h4></a>
+                            </div>
+                        </nav>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------------------------------
+                    LOWER NAVBAR END
+        --------------------------------------->
+        
+        <!--    SCRIPTS    -->
+        <script src="js/main.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!--    NAVBAR SCRIP    -->
+        <script src="js/navbar_script.js"></script>
+        
+        <!--   WOW ANIMATION   -->
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+    </body>
+</html>
